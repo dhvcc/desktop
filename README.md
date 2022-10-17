@@ -13,6 +13,10 @@ gsettings set org.gnome.desktop.interface enable-hot-corners false
 # Show app button on the top/left
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 
+# Allow backwards alt tabbing with Alt+Shift+Tab
+gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<alt>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<alt><shift>Tab']"
+
 # Set kitty as default terminal
 gsettings set org.gnome.desktop.default-applications.terminal exec kitty
 # Change layout on Alt+Shift
@@ -21,17 +25,24 @@ gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<
 
 ## Utilities
 
-1. gnome-shell-extensions
+1. [Extension manager](https://github.com/mjakeman/extension-manager) (a replacement for gnome-extensions-app with a beautiful UI and a feature to search without using your browser)
+   To install it use [Flatpak](#Flatpak)
 2. gnome-tweaks
 3. dconf editor
 
 ```bash
-sudo dnf install gnome-extensions-app \
+sudo dnf install \
   gnome-tweaks \
   dconf-editor
 ```
 
-## Flatpack
+# Apps
+
+1. Gradience (libadwaita theming)
+2. [Youtube Music](https://github.com/th-ch/youtube-music) (electron client for Linux to not use a PWA)
+3. [Google Chat](https://github.com/ankurk91/google-chat-electron) (same as for yt music, but for for google chat)
+
+## Flatpak
 
 [Install]()
 [Search for apps]()

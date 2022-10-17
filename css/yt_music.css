@@ -1,0 +1,13 @@
+/* Add more GNOME-like colors to YouTube Music */
+
+body {
+  background-color: #343434;
+}
+
+.content.style-scope.ytmusic-player-page {
+  background-color: #343434 !important;
+}
+
+.center-content.style-scope.ytmusic-nav-bar, #nav-bar-background {
+  background-color: #212121 !important;
+}
