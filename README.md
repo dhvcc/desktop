@@ -35,8 +35,7 @@ gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<
 ## Utilities
 
 1. [Gnome shell extensions](https://wiki.gnome.org/action/show/Projects/GnomeShellIntegration/Installation?action=show&redirect=Projects%2FGnomeShellIntegrationForChrome%2FInstallation)
-2. [Extension manager](https://github.com/mjakeman/extension-manager) (a replacement for gnome-extensions-app with a beautiful UI and a feature to search without using your browser)
-   To install it use [Flatpak](#Flatpak)
+2. [Extension manager](https://github.com/mjakeman/extension-manager) (a replacement for gnome-extensions-app with a beautiful UI and a feature to search without using your browser). To install it use [Flatpak](#flatpak)
 3. [gnome-tweaks](https://gitlab.gnome.org/GNOME/gnome-tweaks)
 4. [dconf editor](https://gitlab.gnome.org/GNOME/dconf-editor)
 
@@ -68,19 +67,19 @@ sudo dnf install \
 
 ## Extensions and settings
 
-1. Blur-my-shell
-   "Expandable preview of before and after"
-2. Dash to Dock
-3. GSConnect
-4. Bluetooth Quick Connect
-5. Tiling Assistant
-6. Just Perfect
-7. Media Controls
-8. Freon
-9. User Themes
-10. Sound IO Chooser
-11. Soft Brightness
-13. Gnome Email Noifications
+1. [Blur-my-shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+   "TODO: Add expandable preview of before and after"
+2. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+3. [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
+4. [Bluetooth Quick Connect](https://extensions.gnome.org/extension/1401/bluetooth-quick-connect/)
+5. [Tiling Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
+6. [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
+7. [Media Controls](https://extensions.gnome.org/extension/4470/media-controls/)
+8. [Freon](https://extensions.gnome.org/extension/841/freon/)
+9. [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+10. [Sound IO Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+11. [Soft Brightness](https://extensions.gnome.org/extension/1625/soft-brightness/)
+13. [Gnome Email Noifications](https://extensions.gnome.org/extension/1230/gmail-message-tray/)
 
 ### Settings
 
