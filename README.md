@@ -1,11 +1,13 @@
 # Pretty and usefull GNOME desktop
 
-**This is written for Fedora 36 GNOME, different distros may require additional settings **
+**This is written for Fedora 36/37 GNOME, different distros may require additional settings**
 
 **Fedora note**
 [Enabling RPMFusion](https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/#proc_enabling-the-rpmfusion-repositories-using-command-line-utilities_enabling-the-rpmfusion-repositories) will make your life much easier
 
 ## Preview
+
+TODO
 
 "before GIF"
 "after GIF"
@@ -30,10 +32,11 @@ gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<
 
 ## Utilities
 
-1. [Extension manager](https://github.com/mjakeman/extension-manager) (a replacement for gnome-extensions-app with a beautiful UI and a feature to search without using your browser)
+1. [Gnome shell extensions](https://wiki.gnome.org/action/show/Projects/GnomeShellIntegration/Installation?action=show&redirect=Projects%2FGnomeShellIntegrationForChrome%2FInstallation)
+2. [Extension manager](https://github.com/mjakeman/extension-manager) (a replacement for gnome-extensions-app with a beautiful UI and a feature to search without using your browser)
    To install it use [Flatpak](#Flatpak)
-2. gnome-tweaks
-3. dconf editor
+3. gnome-tweaks
+4. dconf editor
 
 ```bash
 sudo dnf install \
@@ -79,7 +82,8 @@ sudo dnf install \
 
 ### Settings
 
-Idk how to dump gnome extension settings
+TODO
+Idk how to dump gnome extension settings (`dconf dump`/`load` ?)
 
 ## Icons and app gnome-like themes
 
