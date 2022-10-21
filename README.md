@@ -24,6 +24,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<alt>Tab']"
 gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<alt><shift>Tab']"
 
+# OPTIONAL
+
 # Set kitty as default terminal
 gsettings set org.gnome.desktop.default-applications.terminal exec kitty
 # Change layout on Alt+Shift
@@ -35,8 +37,8 @@ gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<
 1. [Gnome shell extensions](https://wiki.gnome.org/action/show/Projects/GnomeShellIntegration/Installation?action=show&redirect=Projects%2FGnomeShellIntegrationForChrome%2FInstallation)
 2. [Extension manager](https://github.com/mjakeman/extension-manager) (a replacement for gnome-extensions-app with a beautiful UI and a feature to search without using your browser)
    To install it use [Flatpak](#Flatpak)
-3. gnome-tweaks
-4. dconf editor
+3. [gnome-tweaks](https://gitlab.gnome.org/GNOME/gnome-tweaks)
+4. [dconf editor](https://gitlab.gnome.org/GNOME/dconf-editor)
 
 ```bash
 sudo dnf install \
@@ -46,22 +48,22 @@ sudo dnf install \
 
 # Apps
 
-1. Gradience (libadwaita theming)
-2. [Youtube Music](https://github.com/th-ch/youtube-music) (electron client for Linux to not use a PWA)
-3. [Google Chat](https://github.com/ankurk91/google-chat-electron) (same as for yt music, but for for google chat)
+1. [Youtube Music](https://github.com/th-ch/youtube-music) (electron client for Linux to not use a PWA)
+2. [Google Chat](https://github.com/ankurk91/google-chat-electron) (same as for yt music, but for for google chat)
 
 ## Flatpak
 
-[Install]()
-[Search for apps]()
+[Install](https://flatpak.org/setup/)
+[Search for apps](https://flathub.org/home)
 
 ### Apps
 
-1. Celluloid
+1. [Gradience](https://flathub.org/apps/details/com.github.GradienceTeam.Gradience) (libadwaita theming)
+2. [Celluloid](https://flathub.org/apps/details/io.github.celluloid_player.Celluloid)
    Media player (frontend for MPV player)
-2. Touché
+3. [Touché](https://flathub.org/apps/details/com.github.joseexposito.touche)
    Configuration UI for `touchegg` gesture recognizer
-3. Peek / Kooha
+4. [Peek](https://flathub.org/apps/details/com.uploadedlobster.peek) / [Kooha](https://flathub.org/apps/details/io.github.seadve.Kooha)
    Media recorder if you don't like GNOME's new default
 
 ## Extensions and settings
@@ -87,7 +89,7 @@ Idk how to dump gnome extension settings (`dconf dump`/`load` ?)
 
 ## Icons and app gnome-like themes
 
-1. yaru-theme
+1. [yaru-theme](https://github.com/ubuntu/yaru)
    ```bash
    sudo dnf install yaru-themes
    ```
@@ -124,4 +126,3 @@ sudo dnf install ffmpeg-libs
 7. Auto Tab Discard (save RAM on tabs you're not using)
 8. CustomCSS (inject custom CSS on any site)
 9. Vimium C (best vim plugin for Firefox)
-
