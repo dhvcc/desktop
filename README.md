@@ -2,6 +2,11 @@
 
 **This is written for Fedora 36 GNOME, different distros may require additional settings **
 
+**Fedora note**
+[Enabling RPMFusion](https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/#proc_enabling-the-rpmfusion-repositories-using-command-line-utilities_enabling-the-rpmfusion-repositories) will make your life much easier
+
+## Preview
+
 "before GIF"
 "after GIF"
 
@@ -62,14 +67,15 @@ sudo dnf install \
    "Expandable preview of before and after"
 2. Dash to Dock
 3. GSConnect
-4. Tiling Assistant
-5. Just Perfect
-6. Media Controls
-7. Freon
-8. User Themes
-9. Sound IO Chooser
-10. Soft Brightness
-12. Gnome Email Noifications
+4. Bluetooth Quick Connect
+5. Tiling Assistant
+6. Just Perfect
+7. Media Controls
+8. Freon
+9. User Themes
+10. Sound IO Chooser
+11. Soft Brightness
+13. Gnome Email Noifications
 
 ### Settings
 
@@ -83,6 +89,26 @@ Idk how to dump gnome extension settings
    ```
 2. [Firefox gnome theme](https://github.com/rafaelmardojai/firefox-gnome-theme) (can be themed with Gradience/CSS)
 3. [Telegram theme](https://github.com/Fenimoure/Telegram-Adwaita-Dark-theme) (doesn't follow yaru colors)
+
+# Browsers and codecs
+
+There are license problems with bundling codecs with the OS by default. Make sure to enable RPMFusion repositories
+
+### Chromium
+
+There's already chromium bundled with all of the codecs.
+
+```bash
+sudo dnf install chromium-freeworld
+```
+
+### Firefox
+
+You need to install codecs separately from RPMFusion repository.
+
+```bash
+sudo dnf install ffmpeg-libs
+```
 
 ## Firefox extensions
 
