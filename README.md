@@ -117,11 +117,11 @@ sudo dnf install ffmpeg-libs
 
 ## Firefox extensions
 
-1. uBlock Origin (Ad blocker)
-2. Privacy Badger (Tracker blocker)
-3. ClearURLs (remove useless tracking meta data from urls)
-4. BitWarden (password manager)
-6. Dark Reader (universal dark mode support)
-7. Auto Tab Discard (save RAM on tabs you're not using)
-8. CustomCSS (inject custom CSS on any site)
-9. Vimium C (best vim plugin for Firefox)
+1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) (Ad blocker)
+2. [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) (Tracker blocker)
+3. [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) (remove useless tracking meta data from urls)
+4. [BitWarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) (password manager, also available for mobile/web/desktop)
+6. [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) (universal dark mode support)
+7. [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/) (save RAM on tabs you're not using)
+8. [CustomCSS](https://addons.mozilla.org/en-US/firefox/addon/customcss-injector/) (inject custom CSS on any site)
+9. [Vimium C](https://addons.mozilla.org/en-US/firefox/addon/vimium-c/) (best vim plugin for Firefox)
