@@ -3,6 +3,7 @@
 **This is written for Fedora 36/37 GNOME, different distros may require additional settings**
 
 **Fedora note**
+
 [Enabling RPMFusion](https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/#proc_enabling-the-rpmfusion-repositories-using-command-line-utilities_enabling-the-rpmfusion-repositories) will make your life much easier
 
 ## Preview
@@ -10,6 +11,7 @@
 TODO
 
 "before GIF"
+
 "after GIF"
 
 ## Gnome settings
@@ -53,6 +55,7 @@ sudo dnf install \
 ## Flatpak
 
 [Install](https://flatpak.org/setup/)
+
 [Search for apps](https://flathub.org/home)
 
 ### Apps
@@ -77,20 +80,21 @@ sudo dnf install \
 7. [Media Controls](https://extensions.gnome.org/extension/4470/media-controls/)
 8. [Freon](https://extensions.gnome.org/extension/841/freon/)
 9. [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-10. [Sound IO Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+10. [Sound IO Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) (only for GNOME <43)
 11. [Soft Brightness](https://extensions.gnome.org/extension/1625/soft-brightness/)
 13. [Gnome Email Noifications](https://extensions.gnome.org/extension/1230/gmail-message-tray/)
 
 ### Settings
 
 TODO
+
 Idk how to dump gnome extension settings (`dconf dump`/`load` ?)
 
 ## Icons and app gnome-like themes
 
 1. [yaru-theme](https://github.com/ubuntu/yaru)
    ```bash
-   sudo dnf install yaru-themes
+   sudo dnf install yaru-theme
    ```
 2. [Firefox gnome theme](https://github.com/rafaelmardojai/firefox-gnome-theme) (can be themed with Gradience/CSS)
 3. [Telegram theme](https://github.com/Fenimoure/Telegram-Adwaita-Dark-theme) (doesn't follow yaru colors)
