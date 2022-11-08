@@ -23,15 +23,18 @@ gsettings set org.gnome.desktop.interface enable-hot-corners false
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 
 # Allow backwards alt tabbing with Alt+Shift+Tab
-gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<alt>Tab']"
-gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<alt><shift>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Alt><Shift>Tab']"
+# Disable default GNOME "application" switching, not windows. Conflicts with our keybindings
+settings set org.gnome.desktop.wm.keybindings switch-applications  "[]"
+settings set org.gnome.desktop.wm.keybindings switch-applications-backward  "[]"
 
 # OPTIONAL
 
 # Set kitty as default terminal
 gsettings set org.gnome.desktop.default-applications.terminal exec kitty
 # Change layout on Alt+Shift
-gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<Alt>Shift_L']" >> /etc/profile
+gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<Alt>Shift_L']"
 ```
 
 ## Utilities
