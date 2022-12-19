@@ -21,6 +21,8 @@ TODO
 gsettings set org.gnome.desktop.interface enable-hot-corners false
 # Show app button on the top/left
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+# Restore minimize button
+gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
 
 # Allow backwards alt tabbing with Alt+Shift+Tab
 gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
@@ -30,6 +32,9 @@ gsettings set org.gnome.desktop.wm.keybindings switch-applications  "[]"
 gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward  "[]"
 
 # OPTIONAL
+
+# Resize with (Super/Windows)+Right Click
+gsettings set org.gnome.desktop.wm.preferences resize-with-right-button true
 
 # Set kitty as default terminal
 gsettings set org.gnome.desktop.default-applications.terminal exec kitty
